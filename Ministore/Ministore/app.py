@@ -68,25 +68,6 @@ if "cart_total" not in st.session_state:
 # --------------------------------------------------
 st.markdown("""
 <style>
-/* Lava Lamp Background */
-.stApp {
-    background: linear-gradient(
-        -45deg,
-        #ff9ff3,
-        #d980fa,
-        #c56cf0,
-        #7d5fff,
-        #18dcff
-    );
-    background-size: 400% 400%;
-    animation: lavaGradient 15s ease infinite;
-}
-
-@keyframes lavaGradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
 
 .hero {
     background: linear-gradient(135deg,#4f46e5,#7c3aed);
